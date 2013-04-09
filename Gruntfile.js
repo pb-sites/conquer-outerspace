@@ -8,11 +8,11 @@ module.exports = function(grunt) {
     less: {
       dist: {
         options: {
-          paths: ["assets/css/less"],
+          paths: ["site/assets/css/less"],
           yuicompress: true
         },
         files: {
-          "assets/css/app.css": "assets/css/less/main.less"
+          "site/assets/css/app.css": "site/assets/css/less/main.less"
         }
       }
     }
